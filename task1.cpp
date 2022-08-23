@@ -5,8 +5,7 @@
 Write your code in this editor and press "Run" button to compile and execute it.
 
 *******************************************************************************/
-
-#include <iostream>
+  #include<iostream>
 
 int data = 255;
 
@@ -52,19 +51,20 @@ int main()
 
     
     
- float g = 0;
-    // float h = 1;; дві крапки з комою, но все одно працює
-    // double q = 1,5426; можно указать float і . а не ,
+    float g = 0;
+    float h = 1;; // дві крапки з комою, но все одно працює
+    double q = 1.5426;// можно указать float і . а не ,
     
     
-    // int value = 3;
-    // value = value + 1; не взказан тип данних 
-    // cout << Value << endl; дві змінні з однаковою назвoю і з маленкою буквою 
+    int value = 3;
+    int value1 = value + 1;// не взказан тип данних 
+    std::cout << value << std::endl;// дві змінні з однаковою назвoю і з маленкою буквою 
 
     
-    // int userID = 0x12; 
-    // userID += 5; не вказан тип данних, один і та ж назва змінної і якась хрінь "+="
-    // Cout << userID << Endl;
+    int userID = 0x12; 
+    userID += 5;// не вказан тип данних, один і та ж назва змінної і якась хрінь "+="
+    std::cout << userID << std::endl;
 
     return 0;
 }
+
