@@ -51,7 +51,8 @@ int main()
     std::cout << e << std::endl;
 
     
-    // float g = 0;
+    
+ float g = 0;
     // float h = 1;; дві крапки з комою, но все одно працює
     // double q = 1,5426; можно указать float і . а не ,
     
