@@ -58,7 +58,7 @@ int main()
     
     int value = 3;
     int value1 = value + 1;// не взказан тип данних 
-    std::cout << value << std::endl;// дві змінні з однаковою назвoю і з маленкою буквою 
+    std::cout << value1 << std::endl;// дві змінні з однаковою назвoю і з маленкою буквою 
 
     
     int userID = 0x12; 
