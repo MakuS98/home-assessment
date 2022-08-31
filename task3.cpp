@@ -109,9 +109,10 @@ int main()
     int p = 50000;
     int s = 10000;
     int j = 20000;
+    string x = "(づ｡◕‿‿◕｡)づ";
     for (int q = 0; q <= w; q++)
     {
-        cout << q << "\n";
+        cout << x << "\n";
 
         
         
