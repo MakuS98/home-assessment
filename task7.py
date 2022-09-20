@@ -1,7 +1,10 @@
 '''
 This is long comment in Python, btw :)
 '''
+import arracrobatics as arra
 
+    
+    
 '''
     Ex. 1:
         1. Create array (list) and append to it elements from -9 to 9; 
@@ -13,13 +16,20 @@ This is long comment in Python, btw :)
 '''
 # put your code here
 
-array = list()
-a = -9
-while a <= 9:
-    
-    list.append (a)
-    
-print(a)
+arr = []
+for i in range (-9, 9, 1):
+    arr.append(i)
+print(arr)
+arr.clear()
+for i in range (-9, 9, 1):
+    arr.append("Python")
+print(arr)
+a = int(input("индекс елеманта "))
+b = int(input("значение "))
+del arr[a]
+arr.insert(a, b)
+print(arr)
+
 
 
 
@@ -34,6 +44,18 @@ print(a)
     https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
 '''
 # put your code here
+a = int(input("a "))
+b = int(input("b "))
+c = int(input("c "))
+arra.getAboveZero(a, b, c)
+arr.clear()
+n = int(input("Укажите размер массиву "))
+d = int(input("Целое число "))
+for i in range(0, n, 1):
+    a = int(input("число "))
+    arr.append(a)
+arra.getAboveNum(arr, d)
+
 
 
 
